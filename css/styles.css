@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+/* General Styles */
+html {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin:0;
+    height: 789px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header, footer {
+    background: #FFFFFF;
+}
+
+/* HEADER Section */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    font-size: 1.5em;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 1.6em;  /* or 38.75px / 24px = 1.6em */
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+h2 a {
+    text-shadow: 1px 1px 1px #2B0404;
+    color: #2B0404;
+    text-decoration: none;
+}
+
+/* Main Section */
+#main {
+    height: calc(100% - 48.8px - 101.1px);
+}
+.background-image {
+    background: url(../images/macarons.jpg) center center no-repeat;
+    background-size: 120% 120%;
+    height: 100%;
+}
+
+.background-image h1 {
+    color: #FFFFFF;
+    font-size: 4em;
+    padding: 1.27em 20px;
+    margin: 0;
+    text-shadow: 1px 1px 0 #2B0404;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+h1 span {
+    display: block;
+}
+
+h1 .button {
+    font-weight: 500;
+    font-size: 0.3125em;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #AD00FF;
+    background-color: #FFFFFF;
+    color: #AD00FF;
+    border: 5px solid #AD00FF;
+    border-radius: 36px;
+    padding: 0.5em 2em 0.5em 2em
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+/* Footer Section */
+#footer {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+#copyright {
+    font-size: 0.875em; /* 14px font-size (14px / 16px = 0.875) */
+    padding: 1em 0; /* 14px padding top and bottom */
+}
